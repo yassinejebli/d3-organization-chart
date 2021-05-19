@@ -606,7 +606,7 @@ class TreeChart {
         if ([...d3.event.srcElement.classList].includes("node-button-circle")) {
           return;
         }
-        attrs.onNodeClick(data.nodeId);
+        attrs.onNodeClick(data);
       });
 
     // Add background rectangle for the nodes
