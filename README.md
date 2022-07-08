@@ -1,3 +1,7 @@
+# The changes made by me (Yassine JEBLI)
+* Fixed undefined children issue in line 941 (occurs when toggling on children)
+* Updated `onNodeClick` handler to make it return the whole data object (not just node id) to its caller.
+
 # D3 v5 organization chart
 
 [![NPM Version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=1.1.1&x2=0)](https://npmjs.org/package/d3-org-chart)
